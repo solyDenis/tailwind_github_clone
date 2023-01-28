@@ -1,40 +1,41 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+  
+    </head>
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdn.tailwindcss.com"></script>
-
-</head>
-
-<body class="text-center m-w-sx m-auto block right-24 left-24">
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" class="w-1 h-1">
-<div class="border-2 border-solid border-slate-300 rounded-lg border-2 px-1 bj-slate-200">
-
-
-<label class="p-0.5 text-left mr-20">Username or email address</label>
-<br>
-<input class="rounded py-1 px-14 mx-2.5 my-2.5"></input>
-<br>
-<label class="p-0.5 text-left mr-20">Password</label>
-<a href="https://github.com/password_reset" class="no-underline hover:underline">Forgot password?</a>
-<br>
-<input class="rounded py-1 px-14 mx-2.5 my-2.5"></input>
-<br>
-<button class="bj-green-600 text-white py-2 px-32 rounded">Sign in</button>
-<br>
-</div>
-
-<div class="border-2 border-solid border-slate-300 rounded-lg border-2 px-1 bj-white">
-<ul class="list-none m-0 p-0">
-<li class="inline"><a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service" class="no-underline hover:underline">Terms</a></li>
-<li class="inline"><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" class="no-underline hover:underline">Privacy</a></li>
-<li class="inline"><a href="https://github.com/security" class="no-underline hover:underline">Scecurity</a></li>
-<li class="inline"><a href="https://support.github.com/?tags=dotcom-direct" class="no-underline hover:underline">Contact GitHub</a></li>
-</ul>
-</div>
-
-</body>
+    <body class="w-96 mx-auto text-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" class="w-12 h-12 mx-auto">
+        <h3>Sign in to GitHub</h3>
+        <div class="bg-slate-200 px-2.5 py-2.5 rounded-lg border-solid border-2 border-cyan-400">
+            <label class="text-left mr-24 ">Username or email address</label>
+            <br>
+            <input class="rounded py-1 px-14 mx-2.5 my-2.5 border-blue-600">
+            <br>
+            <label class="p-0.5 text-left mr-20">Password</label>
+            <a href="https://github.com/password_reset" class="no-underline hover:underline text-blue-500">Forgot password?</a>
+            <br>
+            <input class="rounded py-1 px-14 mx-2.5 my-2.5">
+            <br>
+            <button class="bg-green-500 text-white py-2.5 px-32 mx-2 my-2 rounded-lg">Sign in</button>
+            <br>
+        </div>
+        <br>
+        <div class=" px-2.5 py-2.5 border-solid rounded-lg border-cyan-400 border-2">
+            <ul class="flex px-12"> 
+                <li><label>New to GitHub?</label></li>
+                <li><a href="https://github.com/signup?source=login" class="no-underline hover:underline text-blue-500">Create an account.</a></li>
+            </ul>
+        </div>
+        <br>
+        <ul class="flex list-none m-auto px-4 w-96 no-underline text-blue-500 indent-5 ">
+            <li><a class="hover:underline" href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a></li>
+            <li><a class="hover:underline" href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Pravacy</a></li>
+            <li><a class="hover:underline" href="https://github.com/security">Security</a></li>
+            <li><a class="text-black hover:underline hover:text-blue-500" href="https://support.github.com/?tags=dotcom-direct">Contact GitHub</a></li>
+        </ul>
+    </body>
 
 </html>
